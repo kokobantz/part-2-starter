@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__figma__get_figma_data",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\龚科\\\\AppData\\\\Roaming\\\\Code\\\\User\\\\globalStorage\" -Directory -ErrorAction SilentlyContinue | Where-Object { $_.Name -match \"anthropic|claude\" } | Select-Object FullName)"
+    ]
+  }
+}
